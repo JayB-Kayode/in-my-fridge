@@ -6,27 +6,27 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 0001_initial.py	../inMyFridge/recipes/migrations/0001_initial.py	1;"	kind:file	line:1
 ALLOWED_HOSTS	../inMyFridge/inMyFridge/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	../inMyFridge/inMyFridge/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:93
+AUTH_PASSWORD_VALIDATORS	../inMyFridge/inMyFridge/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:90
 AppConfig	../inMyFridge/recipes/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:3
 BASE_DIR	../inMyFridge/inMyFridge/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-DATABASES	../inMyFridge/inMyFridge/settings.py	/^DATABASES = {$/;"	kind:variable	line:82
+DATABASES	../inMyFridge/inMyFridge/settings.py	/^DATABASES = {$/;"	kind:variable	line:79
 DEBUG	../inMyFridge/inMyFridge/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 INSTALLED_APPS	../inMyFridge/inMyFridge/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	../inMyFridge/inMyFridge/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:112
-MIDDLEWARE	../inMyFridge/inMyFridge/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:48
+LANGUAGE_CODE	../inMyFridge/inMyFridge/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:109
+MIDDLEWARE	../inMyFridge/inMyFridge/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:45
 Migration	../inMyFridge/recipes/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
-ROOT_URLCONF	../inMyFridge/inMyFridge/settings.py	/^ROOT_URLCONF = 'inMyFridge.urls'$/;"	kind:variable	line:58
+ROOT_URLCONF	../inMyFridge/inMyFridge/settings.py	/^ROOT_URLCONF = 'inMyFridge.urls'$/;"	kind:variable	line:55
 Recipe	../inMyFridge/recipes/models.py	/^class Recipe (models.Model):$/;"	kind:class	line:6
 RecipesConfig	../inMyFridge/recipes/apps.py	/^class RecipesConfig(AppConfig):$/;"	kind:class	line:6
-SITE_ID	../inMyFridge/inMyFridge/settings.py	/^SITE_ID=1/;"	kind:variable	line:130
-STATIC_URL	../inMyFridge/inMyFridge/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:126
-TEMPLATES	../inMyFridge/inMyFridge/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:60
-TIME_ZONE	../inMyFridge/inMyFridge/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:114
+SITE_ID	../inMyFridge/inMyFridge/settings.py	/^SITE_ID = 1$/;"	kind:variable	line:124
+STATIC_URL	../inMyFridge/inMyFridge/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:123
+TEMPLATES	../inMyFridge/inMyFridge/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:57
+TIME_ZONE	../inMyFridge/inMyFridge/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:111
 TestCase	../inMyFridge/recipes/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
-USE_I18N	../inMyFridge/inMyFridge/settings.py	/^USE_I18N = True$/;"	kind:variable	line:116
-USE_L10N	../inMyFridge/inMyFridge/settings.py	/^USE_L10N = True$/;"	kind:variable	line:118
-USE_TZ	../inMyFridge/inMyFridge/settings.py	/^USE_TZ = True$/;"	kind:variable	line:120
-WSGI_APPLICATION	../inMyFridge/inMyFridge/settings.py	/^WSGI_APPLICATION = 'inMyFridge.wsgi.application'$/;"	kind:variable	line:76
+USE_I18N	../inMyFridge/inMyFridge/settings.py	/^USE_I18N = True$/;"	kind:variable	line:113
+USE_L10N	../inMyFridge/inMyFridge/settings.py	/^USE_L10N = True$/;"	kind:variable	line:115
+USE_TZ	../inMyFridge/inMyFridge/settings.py	/^USE_TZ = True$/;"	kind:variable	line:117
+WSGI_APPLICATION	../inMyFridge/inMyFridge/settings.py	/^WSGI_APPLICATION = 'inMyFridge.wsgi.application'$/;"	kind:variable	line:73
 __init__.py	../inMyFridge/inMyFridge/__init__.py	1;"	kind:file	line:1
 __init__.py	../inMyFridge/recipes/__init__.py	1;"	kind:file	line:1
 __init__.py	../inMyFridge/recipes/migrations/__init__.py	1;"	kind:file	line:1
@@ -65,7 +65,7 @@ unicode_literals	../inMyFridge/recipes/apps.py	/^from __future__ import unicode_
 unicode_literals	../inMyFridge/recipes/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
 unicode_literals	../inMyFridge/recipes/models.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:1
 url	../inMyFridge/inMyFridge/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
-urlpatterns	../inMyFridge/inMyFridge/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../inMyFridge/inMyFridge/urls.py	/^urlpatterns = patterns('',(r'^$', main_page),(r'^user\/(\\w+)\/$', user_page),(r'^login\/$', 'django.contrib.auth.views.login'),)/;"	kind:variable	line:22
 urls.py	../inMyFridge/inMyFridge/urls.py	1;"	kind:file	line:1
 views.py	../inMyFridge/recipes/views.py	1;"	kind:file	line:1
 wsgi.py	../inMyFridge/inMyFridge/wsgi.py	1;"	kind:file	line:1

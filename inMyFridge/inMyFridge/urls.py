@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-#urlpatterns = [
- #   url(r'^admin/', admin.site.urls),
-#]
-urlpatterns = patterns('',(r'^$', main_page),(r'^user/(\w+)/$', user_page),(r'^login/$', 'django.contrib.auth.views.login'),)
+urlpatterns = [
+   url(r'^admin/', admin.site.ugssrls),
+   url('',(r'^$', main_page),(r'^user/(\w+)/$', user_page),(r'^login/$', 'django.contrib.auth.views.login'),)
+]
